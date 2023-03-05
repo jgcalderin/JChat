@@ -1,0 +1,8 @@
+rootProject.name = 'JChat'
+
+
+
+include 'swing'
+include 'server'
+include 'client'
+

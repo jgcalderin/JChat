@@ -1,0 +1,13 @@
+= JCHat Demo
+:hardbreaks:
+
+testkeys: contains localhost certificate. Use if for server.
+samplecacerts: contains localhost certificate as CA
+
+Client VM options:
+-Djavax.net.ssl.trustStore=/home/pantu/Documentos/SSLDemo/samplecacerts -Djavax.net.ssl.trustStorePassword=changeit -Djavax.net.debug=all
+
+= Known Issues
+
+Macro $ProjectFileDir$ does not work
+Neither does $ModuleFileDir$, so it might be all macros
